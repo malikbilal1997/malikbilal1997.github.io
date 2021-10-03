@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'montserrat-medium', sans-serif;
 }
 
-p {
+p, li {
 
   text-align: justify;
   text-justify: inter-word;
@@ -343,10 +343,12 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
   display: block;
+  font-size: 14px;
+  font-style: italic;
+  font-variant-caps: small-caps;
   font-weight: 600;
-  font-family: "montserrat-regular", sans-serif;
+  font-family: "montserrat-medium", sans-serif;
   color: #050d18;
 }
 .skills .progress .skill .val {
@@ -355,11 +357,11 @@ section {
 }
 .skills .progress-bar-wrap {
   background: #dce8f8;
-  height: 10px;
+  height: 16px;
 }
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 16px;
   transition: 0.9s;
   background-color: #149ddd;
 }
@@ -382,15 +384,22 @@ section {
 }
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 20px;
+  font-style: italic;
   font-weight: 600;
-  font-variant-caps: small-caps;
   font-family: 'montserrat-medium', sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
+
+.resume-item p {
+
+  font-size: 14px;
+
+}
+
 .resume .resume-item h5 {
-  font-size: 16px;
+  font-size: 14px;
   background: #e4edf9;
   padding: 5px 15px;
   display: inline-block;
@@ -399,6 +408,7 @@ section {
 }
 .resume .resume-item ul {
   padding-left: 20px;
+  font-size: 14px;
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
